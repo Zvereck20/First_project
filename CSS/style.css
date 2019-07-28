@@ -1,5 +1,36 @@
 header {
+  width: 1000px;
+  height: 550px;
+  margin: 0 auto;
   font-family: 'Sansation' sans-serif;
-  font-weight: 18px;
+  font-weight: 20px;
   background-image: url(../image/Header_background.png);
+}
+.information-lane {
+  height: 57px;
+  display: block;
+  border-bottom: 1px solid grey;
+}
+.header-logo {
+  float: left;
+  margin: 22px 60px 0 32px;
+}
+nav,
+nav li {
+  display: inline-block;
+  margin-top: 11px;
+}
+.menu__items {
+  text-decoration: none;
+  color: #DFDDE4;
+  padding: 22px 40px 0 20px;
+}
+.menu__items_choose {
+  color: #007583;
+}
+.society{
+  display: inline-block;
+}
+.society__icon {
+  padding: 5px;
 }
