@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Sansation';
+    src: url('/Fonts/Sansation_Regular/Sansation_Regular.eot');
+    src: url("/Fonts/Sansation_Regular/Sansation_Regular.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/Sansation_Regular/Sansation_Regular.woff") format("woff"),
+         url("/Fonts/Sansation_Regular/Sansation_Regular.woff2") format("woff2"),
+         url("/Fonts/Sansation_Regular/Sansation_Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('/Fonts/Sansation_Regular/Sansation_Bold.eot');
+    src: url("/Fonts/Sansation_Regular/Sansation_Bold.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/Sansation_Regular/Sansation_Bold.woff") format("woff"),
+         url("/Fonts/Sansation_Regular/Sansation_Bold.woff2") format("woff2"),
+         url("/Fonts/Sansation_Regular/Sansation_Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
