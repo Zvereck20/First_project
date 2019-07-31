@@ -20,6 +20,7 @@ nav li {
   display: inline-block;
   margin-top: 11px;
 }
+
 .menu__items {
   text-decoration: none;
   color: #DFDDE4;
@@ -28,6 +29,7 @@ nav li {
 .menu__items_choose {
   color: #007583;
 }
+
 .society{
   display: inline-block;
   position: relative;
