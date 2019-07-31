@@ -23,14 +23,31 @@ nav li {
 .menu__items {
   text-decoration: none;
   color: #DFDDE4;
-  padding: 22px 40px 0 20px;
+  padding: 22px 40px 0 15px;
 }
 .menu__items_choose {
   color: #007583;
 }
 .society{
   display: inline-block;
+  position: relative;
 }
 .society__icon {
-  padding: 5px;
+  padding: 10px;
+}
+.society__icon-background-fb,
+.society__icon-background-tw,
+.society__icon-background-google {
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.society__icon-background-fb {
+  right: 72px;
+}
+.society__icon-background-tw {
+  right: 38px;
+}
+.society__icon-background-google {
+  right: 5px;
 }
