@@ -2,7 +2,7 @@ header {
   width: 1000px;
   height: 550px;
   margin: 0 auto;
-  font-family: 'Sansation' sans-serif;
+  font-family: 'Sansation', sans-serif;
   font-weight: 20px;
   background-image: url(../image/Header_background.png);
 }
@@ -24,7 +24,7 @@ nav li {
 .menu__items {
   text-decoration: none;
   color: #DFDDE4;
-  padding: 22px 40px 0 15px;
+  padding: 22px 40px 0 7px;
 }
 .menu__items_choose {
   color: #007583;
@@ -52,4 +52,28 @@ nav li {
 }
 .society__icon-background-google {
   right: 5px;
+}
+
+.service {
+  margin-top: 100px;
+  display: block;
+  outline: 2px solid red;
+}
+.service-arrow {
+  padding: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.service__inform {
+  width: 550px;
+  height: 185px;
+  margin: 10px auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.service___inform_title {
+  text-transform: uppercase;
+  font-family: "Sansation", sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+  color: white;
 }
