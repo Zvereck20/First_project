@@ -76,4 +76,20 @@ nav li {
   font-size: 46px;
   font-weight: bold;
   color: white;
+  margin-top: 40px;
+}
+.service___inform_text {
+  font-family: "Sansation" sans-serif;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 15px;
+  margin: 25px 0 30px 0;
+}
+.service__inform_btn {
+  font-family: "Sansation", sans-serif;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+  background: url(/image/Header_background.png) no-repeat 50% 71%;
+  padding: 6px 25px;
 }
