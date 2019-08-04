@@ -57,7 +57,6 @@ nav li {
 .service {
   margin-top: 100px;
   display: block;
-  outline: 2px solid red;
 }
 .service-arrow {
   padding: 5px;
@@ -65,12 +64,12 @@ nav li {
 }
 .service__inform {
   width: 550px;
-  height: 185px;
+  height: 225px;
   margin: 10px auto;
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
-.service___inform_title {
+.service__inform_title {
   text-transform: uppercase;
   font-family: "Sansation", sans-serif;
   font-size: 46px;
@@ -78,12 +77,12 @@ nav li {
   color: white;
   margin-top: 40px;
 }
-.service___inform_text {
+.service__inform_text {
   font-family: "Sansation" sans-serif;
   font-size: 10px;
   color: rgba(255, 255, 255, 0.5);
   line-height: 15px;
-  margin: 25px 0 30px 0;
+  margin: 45px 0 52px 0;
 }
 .service__inform_btn {
   font-family: "Sansation", sans-serif;
@@ -92,4 +91,12 @@ nav li {
   text-transform: uppercase;
   background: url(/image/Header_background.png) no-repeat 50% 71%;
   padding: 6px 25px;
+}
+.service__previos {
+  float: left;
+  margin: 100px 0 0 35px;
+}
+.service__next {
+  float: right;
+  margin: 100px 35px 0 0;
 }
