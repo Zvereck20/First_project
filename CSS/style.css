@@ -2,6 +2,7 @@ body {
   width: 1000px;
   height: auto;
   margin: 0 auto;
+  background-color:black;
 }
 header {
   width: 1000px;
@@ -106,6 +107,9 @@ nav li {
   margin: 100px 35px 0 0;
 }
 
+.about {
+  background-color: #fff;
+}
 .about__inform {
   display: inline-block;
   width: 420px;
@@ -137,7 +141,7 @@ nav li {
   padding: 5px 25px;
 }
 
-.services__logo {
+.bookmaker__logo {
   width: 1000px;
   height: 80px;
   font-family: "Sansation", sans-serif;
@@ -148,26 +152,26 @@ nav li {
   background-color: #363636;
   padding-top: 45px;
 }
-.services__logo_title {
+.bookmaker__logo_title {
   display: inline-block;
 }
-.services__logo-border-right,
-.services__logo-border-left {
+.bookmaker__logo-border-right,
+.bookmaker__logo-border-left {
   width: 70px;
   height: 0;
   display: inline-block;
   border-bottom: 3px solid white;
   position: absolute;
 }
-.services__logo-border-right {
+.bookmaker__logo-border-right {
   top: -1px;
   right: 0;
 }
-.services__logo-border-left {
+.bookmaker__logo-border-left {
   top: -1px;
   left: 0;
 }
-.services__logo-border-long {
+.bookmaker__logo-border-long {
   width: 320px;
   height: 0;
   display: inline-block;
